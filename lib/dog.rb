@@ -1,4 +1,15 @@
-# Your code goes here!
 class Dog
 
-end
+   def name=(dogname)
+     @name = dogname
+   end
+   def name
+     @name
+   end
+   def breed=(breedname)
+     @breed = breedname
+   end
+   def breed
+     @breed
+   end
+ end
